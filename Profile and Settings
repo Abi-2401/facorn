@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile and Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            padding: 20px;
+            background-color: #00356b;
+            color: white;
+            text-align: center;
+        }
+        .content {
+            margin: 20px auto;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .tabs a {
+            text-decoration: none;
+            padding: 10px 15px;
+            color: #00356b;
+            border-right: 1px solid #ddd;
+            font-size: 14px;
+        }
+        .tabs a:last-child {
+            border-right: none;
+        }
+        .tabs a:hover {
+            background-color: #f2f2f2;
+        }
+        .content h1 {
+            font-size: 24px;
+            color: #00356b;
+            margin-bottom: 10px;
+        }
+        .content p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .content a {
+            color: #00356b;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Profile and Settings</h1>
+    </div>
+    <div class="content">
+        <div class="tabs">
+            <a href="#">Absence Declaration</a>
+            <a href="#">Addresses</a>
+            <a href="#">Phone Numbers</a>
+            <a href="#">Email</a>
+            <a href="#">Emergency Contact</a>
+            <a href="#">Other Personal Info</a>
+            <a href="#">Direct Deposit</a>
+            <a href="#">Social Insurance Number (SIN)</a>
+            <a href="#">U of T Student Equity Census</a>
+        </div>
+        <h2>Your ACORN Profile</h2>
+        <p>This is where you can view and update the personal and contact information U of T has on file for your account. Maintaining your personal information helps U of T serve you better by ensuring that we can reach you with official correspondence and send you refunds when you have a positive account balance.</p>
+        <p>Here are some resources to help you manage your profile:</p>
+        <ul>
+            <li><a href="#">Learn how to get, use or replace your TCard</a></li>
+            <li><a href="#">Change or reset your password</a></li>
+            <li><a href="#">If you need to edit information and ACORN does not let you, contact your registrar</a></li>
+        </ul>
+    </div>
+</body>
+</html>
