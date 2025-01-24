@@ -130,6 +130,10 @@
             </div>
             <div class="section">
                 <h2>Profile Checklist</h2>
+                <ul>
+               <li><a href="profile.html">Profile and Settings</a></li>
+            </ul>
+            </div>
                 <div class="profile-checklist">
                     <p>✔ You've completed your profile checklist. You can always <a href="#">visit the Profile page</a> to make updates.</p>
                 </div>
