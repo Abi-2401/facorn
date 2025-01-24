@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #00356b;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .header .help {
+            font-size: 14px;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+        .sidebar h3 {
+            font-size: 16px;
+            color: #00356b;
+            margin-bottom: 10px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .main-content {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .section {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .section h2 {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .timetable p, .finances p, .academics p {
+            margin: 5px 0;
+        }
+        .profile-checklist {
+            background-color: #e7f3e7;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .finances {
+            color: #d9534f;
+        }
+        .button {
+            background-color: #00356b;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #00509e;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>University of Toronto</h1>
+        <div class="help">Need Help? | Abigail Fabiola Kavoura</div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Academics</h3>
+            <ul>
+                <li>Enrol & Manage</li>
+                <li>Timetable & Exams</li>
+                <li>Planning Tools</li>
+                <li>Academic History</li>
+                <li>Graduation & Convocation</li>
+            </ul>
+            <h3>Finances</h3>
+            <ul>
+                <li>Financial Account</li>
+                <li>Make a Payment</li>
+                <li>Grants, Aid & Awards</li>
+                <li>Tuition Fee Deferral</li>
+                <li>Tax Forms</li>
+            </ul>
+            <h3>Life</h3>
+            <ul>
+                <li>Health & Wellness</li>
+                <li>Involvement</li>
+                <li>Jobs & Career Planning</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="section">
+                <h2>Today's Timetable</h2>
+                <div class="timetable">
+                    <p><strong>12:00</strong> - PHY100H5 LEC0101 - Kanef Centre: KN 137</p>
+                    <p><strong>13:00</strong> - CHM110H5 LEC0101 - CCIT: Room CC 1080</p>
+                    <p><strong>14:00</strong> - BIO153H5 TUT0102 - Instructional Centre UTM: Room IB 110</p>
+                    <p><strong>15:00</strong> - MAT132H5 LEC0102 - Room: ZZ TBA</p>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Profile Checklist</h2>
+                <div class="profile-checklist">
+                    <p>✔ You've completed your profile checklist. You can always <a href="#">visit the Profile page</a> to make updates.</p>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Academics</h2>
+                <div class="academics">
+                    <p>Degree Registration Status: <strong>Registered</strong></p>
+                    <p>Enrolled Courses: 2025 Winter</p>
+                    <ul>
+                        <li>MAT134H5 - Differential Integrals for Life Sciences</li>
+                        <li>BIO153H5 - Diversity of Organisms</li>
+                        <li>CHM120H5 - Chemical Principles II</li>
+                        <li>PHY100H5 - What's Physics Got to Do With It?</li>
+                        <li>FSL305 - Functional French - High intermediate </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Finances</h2>
+                <div class="finances">
+                    <p>Outstanding Balance: <strong>$00.00</strong></p>
+                    <p>Financial Arrangement: <strong>Deferred payment (student loan/fin aid)</strong></p>
+                    <p><button class="button">Make a Payment</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
