@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript & Enrolment Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            padding: 20px;
+            background-color: #00356b;
+            color: white;
+            text-align: center;
+        }
+        .content {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+        }
+        h1 {
+            font-size: 24px;
+            color: #3399cc;
+        }
+        .section {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .section h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .info-box {
+            background-color: #e7f3ff;
+            border: 1px solid #cfe2ff;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #004085;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #00356b;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+        .button.disabled {
+            background-color: #ddd;
+            color: #888;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Transcript & Enrolment Confirmation</h1>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>Transcripts</h2>
+            <p>Please preview the content of your transcript to ensure your record is up to date and complete before submitting your order.</p>
+            <p>The cost per transcript is <strong>$18.00</strong>.</p>
+            <p>For more information, visit the <a href="#">Transcripts website</a>.</p>
+            <a href="#" class="button disabled">Order Paper Transcript</a>
+            <a href="#" class="button">Order eTranscript</a>
+        </div>
+        <div class="section">
+            <h2>Transcript Order Status</h2>
+            <div class="info-box">
+                <p>ℹ️ You haven't ordered any paper transcripts yet. Once you place an order for a paper transcript, its status will appear here.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Confirmation of Enrolment Letter</h2>
+            <p>A Confirmation of Enrolment Letter verifies your enrolment status and other essential information for the current or upcoming academic session.</p>
+            <p>This letter is useful for:</p>
+            <ul>
+                <li>Study permits and Visa applications</li>
+                <li>Banking, including some RESPs</li>
+                <li>Insurance and benefit plans</li>
+            </ul>
+            <a href="#" class="button">Customize and Download Enrolment Letter</a>
+        </div>
+    </div>
+</body>
+</html>
